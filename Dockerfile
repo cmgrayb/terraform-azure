@@ -1,7 +1,7 @@
 # Use the official HashiCorp Terraform image as the base image
 FROM hashicorp/terraform:1.12
 
-RUN apk add --no-cache \
+RUN apk add -l --no-cache \
     bash=5.2.37-r0 \
     curl=8.12.1-r1 \
     python3=3.12.10-r0 \
