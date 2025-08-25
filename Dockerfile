@@ -1,5 +1,5 @@
 # Use the official HashiCorp Terraform image as the base image
-FROM hashicorp/terraform:1.12
+FROM hashicorp/terraform:1.13
 
 RUN apk add --no-cache \
     'bash>=5.2.37-r0' \
